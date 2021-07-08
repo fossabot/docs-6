@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 
 module.exports = {
-  title: '渐进式微服务框架',
-  tagline: '按需采纳、横向扩展、代码隔离、性能观测、基础服务开箱即用',
+  title: 'Kross',
+  tagline: '渐进式微服务框架',
   url: 'https://kross.work',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -14,11 +14,8 @@ module.exports = {
   trailingSlash: false,
   organizationName: 'krossjs',
   projectName: 'docs',
-  i18n: {
-    defaultLocale: 'zh',
-    locales: ['zh'],
-  },
   themeConfig: {
+    image: 'imgs/logo.png',
     announcementBar: {
       id: 'announcement-2',
       content: 'If you like Kross, give it a star ⭐ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/krossjs/kross">GitHub</a>!',
@@ -63,52 +60,67 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        src: 'img/logo-dark.png',
+        alt: 'Kross Logo',
+        href: 'https://github.com/krossjs/kross',
+      },
       links: [
         {
-          title: 'Docs',
+          title: 'LIVE',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Kross Live',
+              to: 'https://kross.live',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区&支持',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
+              label: 'Slack',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '技术支持',
+              href: 'mailto:service@lucky-byte.com',
             },
           ],
         },
         {
-          title: 'More',
+          title: '开源',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/krossjs/kross',
             },
+            {
+              label: '行为准则',
+              href: 'https://github.com/krossjs/kross/blob/main/CODE_OF_CONDUCT.zh_CN.md',
+            },
+          ],
+        },
+        {
+          title: '赞助',
+          items: [
+            {
+              label: '贡献代码',
+              href: 'https://allcontributors.org/docs/zh-cn/overview',
+            },
+            {
+              label: 'Buy Me a Coffee',
+              href: '/donate',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} KROSS Project. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kross Project.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+      defaultLanguage: 'javascript',
     },
   },
   presets: [

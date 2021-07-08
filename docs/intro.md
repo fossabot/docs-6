@@ -2,11 +2,23 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 快速上手
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+我们用5分钟快速开始
+
 ## Getting Started
+
+## 第一步
 
 Get started by **creating a new site**.
 

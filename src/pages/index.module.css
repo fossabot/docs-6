@@ -1,5 +1,3 @@
-/* stylelint-disable docusaurus/copyright-header */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -22,6 +20,24 @@ html[data-theme='dark'] .heroBanner {
   color: white !important;
 }
 
+.heroButton:hover {
+  opacity: 0.8;
+}
+
+.heroButton:active {
+  opacity: 0.6;
+}
+
 html[data-theme='dark'] .heroButton {
   color: #ccc !important;
+}
+
+.heroStartedButton {
+  background-color: #1111ee;
+  border-color: #1111ee;
+}
+
+.heroStartedButton:active {
+  background-color: #1111ee;
+  border-color: #1111ee;
 }

@@ -1,0 +1,11 @@
+.hero {
+  text-align: center;
+}
+
+.cover {
+  background-color: #fffd;
+}
+
+html[data-theme='dark'] .cover {
+  background-color: #000d;
+}

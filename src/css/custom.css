@@ -14,16 +14,8 @@
   --ifm-color-primary-lighter: #eb00eb;
   --ifm-color-primary-lightest: #ff0aff;
 
-  --ifm-color-secondary: #1111ee;
-  --ifm-color-secondary-dark: #0f0fd6;
-  --ifm-color-secondary-darker: #0e0eca;
-  --ifm-color-secondary-darkest: #0c0ca7;
-  --ifm-color-secondary-light: #2929f0;
-  --ifm-color-secondary-lighter: #3535f1;
-  --ifm-color-secondary-lightest: #5858f3;
-
   --ifm-code-font-size: 95%;
-  }
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
@@ -37,6 +29,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .header-github-link:hover {
+  opacity: 0.8;
+}
+
+.header-github-link:active {
   opacity: 0.6;
 }
 
