@@ -30,7 +30,7 @@ function HomepageHero() {
         <p className="hero__subtitle">
           按需采纳、横向扩展、代码隔离、性能观测、基础服务开箱即用
         </p>
-        <div className='col col--3 margin-top--xl'>
+        <div className='col margin-top--xl'>
           <HeroButton title='快速上手' icon={<GoPlay size='1.2em' />}
             href='/docs/intro' started
           />
@@ -40,6 +40,12 @@ function HomepageHero() {
           <HeroButton title='GITHUB' icon={<GoMarkGithub size='1.2em' />}
             href='https://github.com/krossjs/kross'
           />
+        </div>
+        <div className='col margin-top--xl'>
+          <iframe src="https://ghbtns.com/github-btn.html?user=krossjs&repo=kross&type=star&count=true"
+            frameBorder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=krossjs&repo=kross&type=fork&count=true"
+            frameBorder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>
         </div>
       </div>
     </header>
