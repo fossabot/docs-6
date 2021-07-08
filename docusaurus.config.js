@@ -10,16 +10,16 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   trailingSlash: false,
-  organizationName: 'krossjs', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'krossjs',
+  projectName: 'docs',
   themeConfig: {
     navbar: {
       title: 'KROSS',
       logo: {
-        alt: 'Kross',
-        src: 'img/logo.svg',
+        alt: 'LOGO',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -34,7 +34,7 @@ module.exports = {
           position: 'left'
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/krossjs/kross',
           label: 'GitHub',
           position: 'right',
         },
