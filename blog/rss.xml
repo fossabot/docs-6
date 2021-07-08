@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>KROSS Blog</title>
+        <title>渐进式微服务框架 Blog</title>
         <link>https://kross.work/blog</link>
-        <description>KROSS Blog</description>
+        <description>渐进式微服务框架 Blog</description>
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
