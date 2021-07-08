@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'Kross',
-  tagline: '渐进式微服务框架',
+  tagline: 'Kross渐进式开源微服务框架',
   url: 'https://kross.work',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,11 +16,13 @@ module.exports = {
   projectName: 'docs',
   themeConfig: {
     image: 'imgs/logo.png',
-    announcementBar: {
+    announcementBar:
+    {
       id: 'announcement-2',
       content: 'If you like Kross, give it a star ⭐ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/krossjs/kross">GitHub</a>!',
     },
-    navbar: {
+    navbar:
+    {
       title: 'KROSS',
       logo: {
         alt: 'LOGO',
@@ -31,7 +33,7 @@ module.exports = {
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
+          position: 'right',
           label: '快速上手',
         },
         {
@@ -58,7 +60,8 @@ module.exports = {
         },
       ],
     },
-    footer: {
+    footer:
+    {
       style: 'dark',
       logo: {
         src: 'img/logo-dark.png',
@@ -117,7 +120,8 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Kross Project.`,
     },
-    prism: {
+    prism:
+    {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
       defaultLanguage: 'javascript',
@@ -127,16 +131,25 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
+        docs:
+        {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/krossjs/docs/edit/main/',
         },
-        blog: {
+        blog:
+        {
           showReadingTime: true,
           editUrl: 'https://github.com/krossjs/docs/edit/main/',
         },
-        theme: {
+        theme:
+        {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap:
+        {
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
         },
       },
     ],

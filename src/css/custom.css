@@ -53,6 +53,6 @@ html[data-theme='dark'] .header-github-link:before {
 /**
  * 在小屏幕抽屉菜单中 LOGO 和标题使用所有剩余空间
  */
-.navbar-sidebar .navbar__brand {
+.navbar__brand {
   flex: 1;
 }
