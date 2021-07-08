@@ -1,18 +1,15 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './donate.module.css';
 import DonateImg from '../../static/img/donate.jpg';
 import Logo from '../../static/img/logo.png';
 
 export default function Donate() {
-  const { siteConfig } = useDocusaurusContext();
-
   const [paytype, setPaytype] = React.useState('weixin');
 
   return (
-    <Layout title={siteConfig.title} description={siteConfig.tagline}>
+    <Layout title='Buy Me a Coffee' description='小额赞助 Korss 项目'>
       <main>
         <div className="hero shadow--lw" style={{
           textAlign: 'center',

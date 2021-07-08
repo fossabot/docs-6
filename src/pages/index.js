@@ -11,7 +11,7 @@ function HeroButton(props) {
   return (
     <Link to={props.href} className={
       clsx("button button--lg margin--sm",
-        props.started ? 'button--secondary' : 'button--outline',
+        props.started ? 'button--secondary' : 'button--secondary',
         styles.heroButton,
         props.started ? styles.heroStartedButton : null
       )

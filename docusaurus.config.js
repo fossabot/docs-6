@@ -83,7 +83,7 @@ module.exports = {
           items: [
             {
               label: 'Slack',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://join.slack.com/t/lucky-byte/shared_invite/zt-t36dijts-Iqtfh5uwUL3VZqswsmbJlw',
             },
             {
               label: '技术支持',
@@ -149,7 +149,6 @@ module.exports = {
         {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],

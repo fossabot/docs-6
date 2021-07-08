@@ -16,10 +16,6 @@ html[data-theme='dark'] .heroBanner {
   }
 }
 
-.heroButton {
-  color: white !important;
-}
-
 .heroButton:hover {
   opacity: 0.8;
 }
@@ -28,11 +24,8 @@ html[data-theme='dark'] .heroBanner {
   opacity: 0.6;
 }
 
-html[data-theme='dark'] .heroButton {
-  color: #ccc !important;
-}
-
 .heroStartedButton {
+  color: white !important;
   background-color: #1111ee;
   border-color: #1111ee;
 }
