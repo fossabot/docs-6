@@ -19,11 +19,16 @@ module.exports = {
     locales: ['zh'],
   },
   themeConfig: {
+    announcementBar: {
+      id: 'announcement-2',
+      content: 'If you like Kross, give it a star ⭐ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/krossjs/kross">GitHub</a>!',
+    },
     navbar: {
       title: 'KROSS',
       logo: {
         alt: 'LOGO',
         src: 'img/logo.png',
+        srcDark: 'img/logo-dark.png',
       },
       items: [
         {
@@ -35,7 +40,7 @@ module.exports = {
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
+          position: 'right',
           label: '文档',
         },
         {
@@ -50,8 +55,9 @@ module.exports = {
         },
         {
           href: 'https://github.com/krossjs/kross',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },

@@ -1,15 +1,15 @@
 /* stylelint-disable docusaurus/copyright-header */
 
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+html[data-theme='dark'] .heroBanner {
+  background-color: var(--ifm-color-primary-dark);
+  color: #ccc;
 }
 
 @media screen and (max-width: 966px) {
@@ -18,8 +18,10 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.heroButton {
+  color: white !important;
+}
+
+html[data-theme='dark'] .heroButton {
+  color: #ccc !important;
 }
