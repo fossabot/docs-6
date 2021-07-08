@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 
 module.exports = {
-  title: 'KROSS',
-  tagline: 'Micro-services out of box',
+  title: '渐进式微服务框架',
+  tagline: '按需采纳、横向扩展、代码隔离、性能观测、基础服务开箱即用',
   url: 'https://kross.work',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -14,6 +14,10 @@ module.exports = {
   trailingSlash: false,
   organizationName: 'krossjs',
   projectName: 'docs',
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['zh'],
+  },
   themeConfig: {
     navbar: {
       title: 'KROSS',
@@ -26,12 +30,23 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '快速上手',
+        },
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: '文档',
         },
         {
           to: '/blog',
-          label: 'Blog',
-          position: 'left'
+          label: 'LIVE',
+          position: 'right'
+        },
+        {
+          to: '/blog',
+          label: '博客',
+          position: 'right'
         },
         {
           href: 'https://github.com/krossjs/kross',
@@ -78,7 +93,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/krossjs/kross',
             },
           ],
         },
@@ -96,15 +111,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/krossjs/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/krossjs/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
