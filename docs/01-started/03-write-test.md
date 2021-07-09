@@ -1,10 +1,9 @@
 ---
-sidebar_position: 4
+id: write-test
+title: 添加测试案例
 ---
 
-# 快速上手
-
-Let's discover **Docusaurus in less than 5 minutes**.
+# 添加测试案例
 
 我们用5分钟快速开始
 我们用5分钟快速开始

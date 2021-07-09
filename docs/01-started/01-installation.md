@@ -1,10 +1,9 @@
 ---
-sidebar_position: 4
+id: installation
+title: 搭建开发环境
 ---
 
-# 快速上手
-
-Let's discover **Docusaurus in less than 5 minutes**.
+# 搭建开发环境
 
 我们用5分钟快速开始
 我们用5分钟快速开始

@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #eb00eb;
   --ifm-color-primary-lightest: #ff0aff;
 
+  --ifm-blockquote-font-size: 90%;
   --ifm-code-font-size: 95%;
 }
 
@@ -55,4 +56,14 @@ html[data-theme='dark'] .header-github-link:before {
  */
 .navbar__brand {
   flex: 1;
+}
+
+.menu__link {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.markdown h1 {
+  font-size: 2.5em;
+  color: var(--ifm-color-primary);
 }

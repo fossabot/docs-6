@@ -6,7 +6,7 @@
 }
 
 html[data-theme='dark'] .heroBanner {
-  background-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-primary-darkest);
   color: #ccc;
 }
 
