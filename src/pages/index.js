@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { GoMarkGithub, GoPlay, GoBook } from "react-icons/go";
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import Features from '../components/Features';
 
 function HeroButton(props) {
   return (
@@ -28,7 +28,7 @@ function HomepageHero() {
       <div className="container">
         <h1 className="hero__title">渐进式微服务框架</h1>
         <p className="hero__subtitle">
-          按需采纳、横向扩展、代码隔离、性能观测、基础服务开箱即用
+          上手容易，开箱即用
         </p>
         <div className='col margin-top--xl'>
           <HeroButton title='快速上手' icon={<GoPlay size='1.2em' />}
@@ -59,7 +59,7 @@ export default function Home() {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <HomepageHero />
       <main>
-        <HomepageFeatures />
+        <Features />
       </main>
     </Layout>
   );

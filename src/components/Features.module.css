@@ -1,0 +1,7 @@
+.feature:hover {
+  color: #1111ee;
+}
+
+html[data-theme='dark'] .feature:hover {
+  color: #5858f3;
+}

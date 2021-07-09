@@ -53,6 +53,11 @@ module.exports = {
           position: 'right'
         },
         {
+          label: 'Slack 聊天',
+          href: 'https://join.slack.com/t/lucky-byte/shared_invite/zt-t36dijts-Iqtfh5uwUL3VZqswsmbJlw',
+          position: 'right'
+        },
+        {
           href: 'https://github.com/krossjs/kross',
           position: 'right',
           className: 'header-github-link',
@@ -82,12 +87,12 @@ module.exports = {
           title: '社区&支持',
           items: [
             {
-              label: 'Slack',
+              label: 'Slack 交流',
               href: 'https://join.slack.com/t/lucky-byte/shared_invite/zt-t36dijts-Iqtfh5uwUL3VZqswsmbJlw',
             },
             {
               label: '技术支持',
-              href: 'mailto:service@lucky-byte.com',
+              href: '/support',
             },
           ],
         },
